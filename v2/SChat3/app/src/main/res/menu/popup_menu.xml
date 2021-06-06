@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_reply_message" android:textColor="#000000" android:title="Ответить" app:showAsAction="never" />
+    <item android:id="@+id/menu_copy_message" android:title="Копировать" app:showAsAction="never" />
+    <item android:id="@+id/menu_forward_message" android:title="Переслать" app:showAsAction="never" />
+    <item android:id="@+id/menu_edit_message" android:title="Изменить" app:showAsAction="never" />
+    <item android:id="@+id/menu_delete_message" android:title="Удалить" app:showAsAction="never" />
+
+
+</menu>

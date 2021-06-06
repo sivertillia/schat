@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.screens.settings.SettingsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/setting_header_block"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/setting_user_photo"
+            android:layout_width="@dimen/settings_user_photo_width"
+            android:layout_height="@dimen/settings_user_photo_height"
+            android:src="@drawable/default_photo"
+            app:civ_circle_background_color="@color/colorAccent"
+            android:layout_marginStart="@dimen/app_margin"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/setting_full_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            tools:text="@string/settings_default_username"
+            android:textSize="@dimen/normalText"
+            android:layout_marginStart="@dimen/app_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/app_small_margin"
+            app:layout_constraintTop_toTopOf="@id/setting_user_photo"
+            app:layout_constraintStart_toEndOf="@id/setting_user_photo"/>
+        <TextView
+            android:id="@+id/setting_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccentDark"
+            tools:text="@string/settings_default_status"
+            android:textSize="@dimen/smallText"
+            android:layout_marginStart="@dimen/app_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/setting_full_name"
+            app:layout_constraintStart_toEndOf="@id/setting_user_photo"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/setting_text_account"
+        android:layout_width="match_parent"
+        android:text="@string/settings_text_account"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/smallText"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/app_margin"
+        android:layout_marginTop="@dimen/vertical_large_margin"
+        app:layout_constraintTop_toBottomOf="@id/setting_header_block"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/setting_btn_change_number_phone"
+        app:layout_constraintTop_toBottomOf="@id/setting_text_account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/settingsButtons">
+        <TextView
+            android:id="@+id/setting_phone_number"
+            app:layout_constraintTop_toTopOf="@id/setting_btn_change_number_phone"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="@string/settings_default_number"
+            style="@style/normalText" />
+        <TextView
+            android:id="@+id/setting_label_phone_number"
+            app:layout_constraintTop_toBottomOf="@id/setting_phone_number"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/setting_label_phone_number"
+            style="@style/smallText" />
+        <View
+            app:layout_constraintTop_toBottomOf="@id/setting_label_phone_number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            style="@style/separator" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/setting_btn_change_username"
+        app:layout_constraintTop_toBottomOf="@id/setting_btn_change_number_phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/settingsButtons">
+        <TextView
+            android:id="@+id/setting_username"
+            app:layout_constraintTop_toTopOf="@id/setting_btn_change_username"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="@string/settings_default_login"
+            style="@style/normalText" />
+        <TextView
+            android:id="@+id/setting_label_username"
+            app:layout_constraintTop_toBottomOf="@id/setting_username"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/setting_label_login"
+            style="@style/smallText" />
+        <View
+            app:layout_constraintTop_toBottomOf="@id/setting_label_username"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            style="@style/separator" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/setting_btn_change_bio"
+        app:layout_constraintTop_toBottomOf="@id/setting_btn_change_username"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/settingsButtons">
+        <TextView
+            android:id="@+id/setting_bio"
+            app:layout_constraintTop_toTopOf="@id/setting_btn_change_bio"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="@string/settings_default_bio"
+            style="@style/normalText" />
+        <TextView
+            android:id="@+id/setting_label_bio"
+            app:layout_constraintTop_toBottomOf="@id/setting_bio"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/setting_label_bio"
+            style="@style/smallText" />
+        <View
+            app:layout_constraintTop_toBottomOf="@id/setting_label_bio"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            style="@style/separator" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setting_change_photo"
+        android:layout_width="@dimen/settings_btn_change_photo_width"
+        android:layout_height="@dimen/settings_btn_change_photo_height"
+        android:src="@drawable/ic_camera"
+        android:layout_marginEnd="@dimen/app_margin"
+        app:civ_border_color="@color/colorGrey"
+        app:civ_circle_background_color="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="@+id/setting_header_block"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setting_header_block" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "153821606677",
+    "firebase_url": "https://schat-5794a.firebaseio.com",
+    "project_id": "schat-5794a",
+    "storage_bucket": "schat-5794a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153821606677:android:bd3ddccb24dc95e2472f1c",
+        "android_client_info": {
+          "package_name": "com.sivert.schat2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153821606677-hstgql7esb3ghk9q8iivves34fp09tsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGIXfE57ShYlmGSbOL-ZJRtso9CxwjYwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153821606677-hstgql7esb3ghk9q8iivves34fp09tsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

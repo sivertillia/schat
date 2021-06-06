@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="42328fac-6cf4-4b0b-9c6c-a5f516015dac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/database/databaseFuns.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/database/databaseValues.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/message_recycler_view/view_holders/AppHolderFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/message_recycler_view/view_holders/HolderFileMessage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/message_recycler_view/view_holders/HolderImageMessage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/message_recycler_view/view_holders/HolderTextMessage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/message_recycler_view/view_holders/HolderVoiceMessage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/message_recycler_view/view_holders/MessageHolder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/message_recycler_view/views/AppViewFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/message_recycler_view/views/MessageView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/message_recycler_view/views/ViewFileMessage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/message_recycler_view/views/ViewImageMessage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/message_recycler_view/views/ViewTextMessage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/message_recycler_view/views/ViewVoiceMessage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/base/BaseFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/groups/AddContactsAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/groups/AddContactsFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/groups/CreateGroupFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/main_list/MainListAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/main_list/MainListFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/settings/ChangeBioFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/single_chat/SingleChatAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/single_chat/SingleChatFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/utilits/AppChildEventListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/utilits/AppVoicePlayer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/utilits/AppVoiceRecorder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/utilits/DiffUtilCalback.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/change_photo_group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/default_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_attach.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_attach_file.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_attach_image.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_bg_voice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_choice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_clear.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_delete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_done.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_file_blue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_file_green.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_copy_message.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_edit_message.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_forward_message.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_reply_message.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_play_blue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_play_green.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_stop_blue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_stop_green.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_voice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_contacts_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/choice_upload.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_contacts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_create_group.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/main_list_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/message_item_file.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/message_item_image.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/message_item_text.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/popup_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/single_chat_action_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/single_chat_item_action_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Sivert.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Sivert.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/activities/RegisterActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/models/CommonModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/models/CommonModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/fragments/BaseChangeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/base/BaseChangeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/fragments/BaseFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/fragments/ChangeBioFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/fragments/ChangeNameFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/settings/ChangeNameFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/fragments/ChangeUsernameFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/settings/ChangeUsernameFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/fragments/ChatsFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/fragments/ContactsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/contacts/ContactsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/fragments/EnterCodeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/register/EnterCodeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/fragments/EnterPhoneNumberFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/register/EnterPhoneNumberFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/fragments/SettingsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/screens/settings/SettingsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/fragments/SingleChatFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/objects/AppDrawer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/ui/objects/AppDrawer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/utilits/AppStates.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/utilits/AppStates.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/utilits/appConstants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/utilits/appConstants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/utilits/appDatabaseHelper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/utilits/appPermissions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/utilits/appPermissions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/utilits/funs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sivert/schat2/utilits/funs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_camera.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/default_user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_send.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_send.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/contact_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/contact_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_bio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_bio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_name.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_name.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_username.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_username.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chats.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_contacts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_enter_code.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_enter_code.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_enter_phone_number.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_enter_phone_number.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_single_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_single_chat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/message_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/message_item_voice.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_28" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="S.Chat 2.0" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="S.Chat 2.0" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="S.Chat 2.0" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="S.Chat 2.0" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="S.Chat 2.0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Enum" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hYcp0rmonKZTOxWjxJt501Qnqm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_5X_API_28" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-17T08:59:57.023Z" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/menu" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\AndroidStudioProjects\SChat3\app\src\main\res\menu" />
+      <recent name="C:\Users\User\AndroidStudioProjects\SChat2\app\src\main\res\drawable-v24" />
+      <recent name="C:\Users\User\AndroidStudioProjects\SChat2\app\src\main\res\drawable-hdpi" />
+      <recent name="C:\Users\User\AndroidStudioProjects\SChat2\app\src\main\res\layout" />
+      <recent name="C:\Users\User\AndroidStudioProjects\SChat2\app\src\main\java\com\sivert\schat2\ui\screens\groups" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.sivert.schat2.ui.message_recycler_view.view_holders" />
+      <recent name="com.sivert.schat2.ui.message_recycler_view.views" />
+      <recent name="com.sivert.schat2.ui.fragments.message_recycler_view.view_holders" />
+      <recent name="com.sivert.schat2.ui.fragments.message_recycler_view.views" />
+      <recent name="com.sivert.schat2.utilits" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.sivert.schat2.ui.screens.base" />
+      <recent name="com.sivert.schat2.ui.screens.contacts" />
+      <recent name="com.sivert.schat2.ui.settings" />
+      <recent name="com.sivert.schat2.ui.screens.main_list" />
+      <recent name="com.sivert.schat2.database" />
+    </key>
+    <key name="android.template.-941644345">
+      <recent name="com.sivert.schat2.activities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\AndroidStudioProjects\SChat2\app\src\main\res\drawable-hdpi" />
+      <recent name="C:\Users\User\AndroidStudioProjects\SChat2\app\src\main\java\com\sivert\schat2\database" />
+      <recent name="C:\Users\User\AndroidStudioProjects\SChat2\app" />
+      <recent name="C:\Users\User\AndroidStudioProjects\SChat2\app\src\main\res\drawable-v24" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SChat2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SChat2 [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.SChat2 [signingReport]" />
+        <item itemvalue="Gradle.SChat2 [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\User\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42328fac-6cf4-4b0b-9c6c-a5f516015dac" name="Default Changelist" comment="" />
+      <created>1600191644327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600191644327</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add Commit 'S.Chat 2.0'">
+      <created>1600451632745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600451632745</updated>
+    </task>
+    <task id="LOCAL-00002" summary="до бази даних">
+      <created>1600621040208</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600621040208</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add Commit 'S.Chat 2.0'" />
+    <MESSAGE value="до бази даних" />
+    <option name="LAST_COMMIT_MESSAGE" value="до бази даних" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="679" y="164" key="#app" timestamp="1603883456782">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="164" key="#app/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603883456782" />
+    <state x="690" y="273" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1600352481835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="273" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1600352481835" />
+    <state x="676" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601310619825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="676" y="321" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601310619825" />
+    <state x="751" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1603887520188">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="626" y="194" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1601323865176" />
+    <state x="751" y="234" key="#com.intellij.ide.util.MemberChooser/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601722688736" />
+    <state x="751" y="234" key="#com.intellij.ide.util.MemberChooser/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603887520188" />
+    <state x="708" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601313938617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601313938617" />
+    <state x="493" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603973337417">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="493" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601730083365" />
+    <state x="493" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603973337417" />
+    <state x="546" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600610954297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="546" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1600610954297" />
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603559963703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="575" y="219" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600682614228" />
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601736379201" />
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603559963703" />
+    <state x="739" y="171" width="458" height="578" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1601733457766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="141" width="458" height="578" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1600974142201" />
+    <state x="739" y="171" width="478" height="698" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601733457766" />
+    <state x="540" y="273" key="AndroidCreateResourceDirectoryDialog" timestamp="1600270905264">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="273" key="AndroidCreateResourceDirectoryDialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1600270905264" />
+    <state x="540" y="273" key="AndroidCreateResourceFileDialog" timestamp="1603558941129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="273" key="AndroidCreateResourceFileDialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601735732503" />
+    <state x="540" y="273" key="AndroidCreateResourceFileDialog/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603558941129" />
+    <state x="911" y="326" key="AndroidCreateXmlResourceDialog" timestamp="1603573193668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="262" key="AndroidCreateXmlResourceDialog/0.0.1600.860@0.0.1600.860" timestamp="1601368975819" />
+    <state x="911" y="326" key="AndroidCreateXmlResourceDialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601737405670" />
+    <state x="911" y="326" key="AndroidCreateXmlResourceDialog/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603573193668" />
+    <state x="614" y="113" key="CommitChangelistDialog2" timestamp="1600621035551">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="113" key="CommitChangelistDialog2/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1600621035551" />
+    <state x="184" y="85" width="1536" height="832" key="DiffContextDialog" timestamp="1603406461366">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="85" key="DiffContextDialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1600620925922" />
+    <state x="184" y="85" width="1536" height="832" key="DiffContextDialog/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603406461366" />
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1603563286340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="273" key="FileChooserDialogImpl/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1600451231193" />
+    <state x="740" y="273" key="FileChooserDialogImpl/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603563286340" />
+    <state width="1876" height="359" key="GridCell.Tab.0.bottom" timestamp="1603913938167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="359" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601466431464" />
+    <state width="1876" height="359" key="GridCell.Tab.0.bottom/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601736154003" />
+    <state width="1876" height="359" key="GridCell.Tab.0.bottom/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603913938167" />
+    <state width="1876" height="359" key="GridCell.Tab.0.center" timestamp="1603913938167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="359" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1601466431463" />
+    <state width="1876" height="359" key="GridCell.Tab.0.center/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601736154003" />
+    <state width="1876" height="359" key="GridCell.Tab.0.center/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603913938167" />
+    <state width="1876" height="359" key="GridCell.Tab.0.left" timestamp="1603913938167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="359" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1601466431461" />
+    <state width="1876" height="359" key="GridCell.Tab.0.left/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601736154003" />
+    <state width="1876" height="359" key="GridCell.Tab.0.left/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603913938167" />
+    <state width="1876" height="359" key="GridCell.Tab.0.right" timestamp="1603913938167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="359" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601466431463" />
+    <state width="1876" height="359" key="GridCell.Tab.0.right/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601736154003" />
+    <state width="1876" height="359" key="GridCell.Tab.0.right/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603913938167" />
+    <state width="1876" height="477" key="GridCell.Tab.1.bottom" timestamp="1603486969213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="573" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601119598791" />
+    <state width="1876" height="573" key="GridCell.Tab.1.bottom/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601724134496" />
+    <state width="1876" height="477" key="GridCell.Tab.1.bottom/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603486969213" />
+    <state width="1876" height="477" key="GridCell.Tab.1.center" timestamp="1603486969212">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="573" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1601119598791" />
+    <state width="1876" height="573" key="GridCell.Tab.1.center/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601724134495" />
+    <state width="1876" height="477" key="GridCell.Tab.1.center/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603486969212" />
+    <state width="1876" height="477" key="GridCell.Tab.1.left" timestamp="1603486969212">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="573" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1601119598791" />
+    <state width="1876" height="573" key="GridCell.Tab.1.left/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601724134495" />
+    <state width="1876" height="477" key="GridCell.Tab.1.left/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603486969212" />
+    <state width="1876" height="477" key="GridCell.Tab.1.right" timestamp="1603486969213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="573" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1601119598791" />
+    <state width="1876" height="573" key="GridCell.Tab.1.right/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601724134495" />
+    <state width="1876" height="477" key="GridCell.Tab.1.right/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603486969213" />
+    <state x="540" y="261" key="IDE.errors.dialog" timestamp="1600334025713">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="261" key="IDE.errors.dialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1600334025713" />
+    <state x="461" y="150" key="SettingsEditor" timestamp="1600454172266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="150" key="SettingsEditor/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1600454172266" />
+    <state x="421" y="205" key="Vcs.Push.Dialog.v2" timestamp="1600454025149">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="421" y="205" key="Vcs.Push.Dialog.v2/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1600454025149" />
+    <state x="776" y="296" key="chooseDestDirectoryDialog" timestamp="1601736423945">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="296" key="chooseDestDirectoryDialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601736423945" />
+    <state x="92" y="92" width="1736" height="856" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1602927025678">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.android.tools.idea.avdmanager.AvdListDialog/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1602927025678" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603406673483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603406673483" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1604921705337">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.180.1600.860@0.0.1920.1040" timestamp="1604921705337" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601718916368" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604141175543" />
+    <state x="701" y="161" key="refactoring.ChangeSignatureDialog" timestamp="1603913715676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="161" key="refactoring.ChangeSignatureDialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601384809194" />
+    <state x="701" y="161" key="refactoring.ChangeSignatureDialog/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603913715676" />
+    <state x="616" y="235" width="672" height="677" key="run.anything.popup" timestamp="1603823635145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="235" width="672" height="677" key="run.anything.popup/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601720009769" />
+    <state x="616" y="235" width="672" height="677" key="run.anything.popup/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603823635145" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603840165578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1601306856631" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.180.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603840165578" />
+  </component>
+</project>

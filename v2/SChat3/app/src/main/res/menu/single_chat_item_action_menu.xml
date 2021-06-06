@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_reply_message" android:title="Ответить" android:icon="@drawable/ic_menu_reply_message" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_copy_message" android:title="Копировать" android:icon="@drawable/ic_menu_copy_message" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_forward_message" android:title="Переслать" android:icon="@drawable/ic_menu_forward_message" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_edit_message" android:title="Изменить" android:icon="@drawable/ic_menu_edit_message" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_delete_message" android:title="Удалить" android:icon="@drawable/ic_delete" android:textColor="#000000" app:showAsAction="ifRoom"/>
+
+</menu>
