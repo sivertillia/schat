@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "978049856168",
+    "firebase_url": "https://chat-sivert.firebaseio.com",
+    "project_id": "chat-sivert",
+    "storage_bucket": "chat-sivert.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978049856168:android:2f233a402342c5d84b089d",
+        "android_client_info": {
+          "package_name": "com.sivert.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978049856168-cnsbduvibep9378qq8rc6v07fbbvk4a6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sivert.chat",
+            "certificate_hash": "8dc539ef775fe813a016bb6dc2753f9ded6d5632"
+          }
+        },
+        {
+          "client_id": "978049856168-0c3vmvv37ev1t7t4u4gavlaa1aulrugq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoz7yBQCDiWlQic1lHC9S0OlDMLMjG6d8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978049856168-0c3vmvv37ev1t7t4u4gavlaa1aulrugq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
